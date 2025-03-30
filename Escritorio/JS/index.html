@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del Dom Básica</title>
+</head>
+<body>
+    <h1 class='verde' pantalla="platzigi">Manipulación del Dom Básica</h1>
+    <!-- <p>Es un párrafo</p>
+    <p class="parrafito">Es un párrafo con clase</p>
+    <p id="pid">Es un párrafo con ID</p> -->
+    <form id="form">
+        <input id="calculo1" placeholder="escribe algo aquí">
+        <input onchange="console.log('cambió el input')" id="calculo2" placeholder="escribe algo aquí">
+        <button type="button" id="btnCalcular">Calcular</button> <!-- este formulario agarra el ultimo botón y dice que su tipo es submit, se recarga la página-->
+
+        <p id="result"></p>
+    </form>
+    <script src="./script.js">       
+    </script>
+</body>
+</html>
